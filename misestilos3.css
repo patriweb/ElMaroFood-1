@@ -69,7 +69,11 @@ overflow: scroll;
 }
 
 #cajapadre {
-width: 900px;
+width: 1000px;
+border: 1px ;
+}
+#cajapadre2 {
+width: 1000px;
 border: 1px ;
 }
 
