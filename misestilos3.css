@@ -1,0 +1,193 @@
+
+header {
+height: 80px
+width:140px;	
+margin: 20px;
+padding: 15px 0px 0px 0px;
+text-align: center;
+/*background:#943126;*/
+border-style: solid;
+border-radius: 10px / 10px;
+/*border-width: 2px;*/
+/*border:5px dashed #CCCCCC;*/
+/*outline: 2px dashed #000000;
+outline-offset: 15px;*/
+border-image-source: url("bronce3.jpg");
+border-image-slice: 29;
+/*border-image-repeat: stretch;*/
+/*box-shadow: #a77658 5px 5px;*/
+box-shadow: #c93c20 10px 10px 20px 10px;
+/*background: -webkit-linear-gradient(top, transparent, #666666);*/
+}
+
+body {
+margin: 30px;
+padding: 25px;
+text-align: center;
+background-image: url("fogon.jpg");
+}
+
+a {
+text-align: center;
+color:brown;
+
+}
+nav  {
+text-align: center;
+color:#804000;
+background-image: url("dorado.jpg");
+
+}
+
+.seccionpie{
+	color:#CD7F32
+}
+
+#titulo {
+font-family: Verdana, sans-serif;
+font-size: 36px;
+word-spacing: 10px;
+background-image: url("dorado.jpg");
+margin: 30px;
+padding: 15px;
+color: #804000;
+
+}
+#titulo {
+
+background-image: url("bronce.jpg");
+box-shadow: brown 5px 5px;
+}
+
+#descripcion {
+font-family: Verdana, sans-serif;
+font-size: 16px;
+word-spacing: 5px;
+width: 200px;
+height: 100px;
+overflow: scroll;
+}
+
+#cajapadre {
+width: 900px;
+border: 1px ;
+}
+
+#caja-1 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("metalico.jpg");
+}
+
+#caja-2 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("bronce.jpg");
+}
+
+#caja-3 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("metalico.jpg");
+}
+
+#caja-4 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("bronce.jpg");
+}
+
+.restaurar {
+clear: both;
+}
+
+#caja-11{
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("metalico.jpg");
+}
+
+#caja-22 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("bronce.jpg");
+}
+
+#caja-33 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("metalico.jpg");
+}
+
+#caja-44 {
+float: left;
+width: 210px;
+height: 200px;
+margin: 5px;
+background-image: url("bronce.jpg");
+}
+
+.restaurar {
+clear: both;
+}
+
+header nav a {
+	color: #804000;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: brown ;
+}
+/*-------Social Media------*/
+.social {
+	/*position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	/*left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display:inline-flex; 
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+
+	.social ul li .icon-googleplus {background: #d95232;}
+
+	.social ul li .icon-pinterest {background: #ae181f;}
+
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
