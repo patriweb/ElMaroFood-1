@@ -109,6 +109,18 @@ margin: 5px;
 background-image: url("bronce.jpg");
 }
 
+#contact {
+	float: left;
+	width: 850px;
+	height: 350px;
+	margin: 5px;
+	background-image: url("bronce.jpg");
+	color: #804000;
+	font-size: 26px;
+	margin: 10px;
+    padding: 5px;
+	}
+
 .restaurar {
 clear: both;
 }
